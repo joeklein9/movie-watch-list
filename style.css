@@ -134,3 +134,8 @@
 .make-invisible {
     visibility:hidden;
 }
+
+a {
+    text-decoration:none;
+    color:white;
+}
