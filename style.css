@@ -126,3 +126,11 @@
     flex-grow: 0;
     font-family: 'Righteous', cursive;
 }
+
+.results-container {
+    max-height:600px;
+}
+
+.make-invisible {
+    visibility:hidden;
+}
