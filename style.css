@@ -1,0 +1,62 @@
+body div {
+    border: 1px solid green;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 779px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 208px;
+    background-image: url("images/background.png");
+    background-color: black;
+}
+
+.title {
+
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42.7947px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.page-nav {
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+#film-icon {
+    height: 70px;
+    width: 70px;
+
+}
+
+.icon-subtext {
+    font-family:'Righteous', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #DFDDDD;
+}
