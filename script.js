@@ -31,4 +31,6 @@ function renderResults() {
     document.getElementById("film-icon").style.visibility = "hidden"
     document.getElementById("icon-subtext").style.visibility = "hidden"
     document.getElementById("results-container").innerHTML = html
+
+    movieArray = []
 }
