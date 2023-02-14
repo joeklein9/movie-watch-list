@@ -5,7 +5,7 @@ const searchButton = document.getElementById("search-button")
 const resultsContainer = document.getElementById("results-container")
 
 searchButton.addEventListener("click", function () {
-    fetch(`http://www.omdbapi.com/?s=${searchBar.value}&apikey=ec55d5fb`)
+    fetch(`https://www.omdbapi.com/?s=${searchBar.value}&apikey=ec55d5fb`)
         .then(res => res.json())
         .then(data => {
             console.log(data.Search)
