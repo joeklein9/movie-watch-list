@@ -1,5 +1,3 @@
-
-
 .body {
     display: flex;
     flex-direction: column;
@@ -12,8 +10,8 @@
 .main {
     display: flex;
     flex-direction: column;
-    
-    
+
+
 }
 
 .header {
@@ -62,9 +60,9 @@
 }
 
 .search-bar-container {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
 
     /* white */
@@ -81,11 +79,11 @@
 
 #search-bar {
 
-    font-family:'Righteous', cursive;
-    font-weight:lighter;
-    margin-left:5px;
+    font-family: 'Righteous', cursive;
+    font-weight: lighter;
+    margin-left: 5px;
     border: none;
-    height:35px;
+    height: 35px;
 
     /* Inside auto layout */
 
@@ -99,33 +97,32 @@
 
     box-sizing: border-box;
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 9px 11px 9px 17px;
-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 11px 9px 17px;
+    gap: 8px;
 
-width: 120px;
-height: 37px;
+    width: 120px;
+    height: 37px;
 
-/* gray/50 */
+    /* gray/50 */
 
-background: #F9FAFB;
-/* gray/300 */
+    background: #F9FAFB;
+    /* gray/300 */
 
-border: 1px solid #D1D5DB;
-border-radius: 0px 6px 6px 0px;
-cursor:pointer;
+    border: 1px solid #D1D5DB;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-font-family:'Righteous', cursive;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: 'Righteous', cursive;
 }
-
