@@ -8,10 +8,10 @@ searchButton.addEventListener("click", function () {
     fetch (`http://www.omdbapi.com/?s=${searchBar.value}&apikey=ec55d5fb`)
     .then(res => res.json())
     .then(data => {
-        console.log(data)
-        movieArray = data.slice(0, 5)
-        console.log(movieArray)
+        console.log(data.Search[0])
+        movieArray.push(data.Search[0])
         renderResults()
+        
     })
 })
 
@@ -20,8 +20,7 @@ function renderResults() {
     let html = ""
     for (let movie of movieArray) {
         html += `
-            <h3>${movie.title}</h3>
-            <p>${movie.year}</p>
+            <h3>${movie.Title}</h3>
             <hr />
         `
     }
