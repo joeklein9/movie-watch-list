@@ -127,7 +127,7 @@
     font-family: 'Righteous', cursive;
 }
 
-.results-container {
+.poster-container {
     max-height:600px;
 }
 
@@ -138,4 +138,10 @@
 a {
     text-decoration:none;
     color:white;
+}
+
+.poster-images {
+    
+    height:150px;
+    width:100;
 }
