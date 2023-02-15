@@ -54,7 +54,7 @@ function renderDetails () {
         
     }
     
-    document.getElementById("movie-details-container").innerHTML = detailsHtml
+    document.getElementById("poster-container").innerHTML = detailsHtml
 }
 
 
