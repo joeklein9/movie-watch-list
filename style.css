@@ -141,11 +141,9 @@ a {
     color:white;
 }
 
-#add-watchlist-button {
+.add-watchlist-button {
     margin-bottom:10px;
     display:flex;
-}
-
-.movie-posters {
-    
+    background-color:lightblue;
+    border-radius:5%;
 }
