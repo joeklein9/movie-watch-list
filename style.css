@@ -128,7 +128,8 @@
 }
 
 .results-container {
-    max-height:600px;
+    
+    max-height: 670px;
 }
 
 .make-invisible {
@@ -138,4 +139,13 @@
 a {
     text-decoration:none;
     color:white;
+}
+
+#add-watchlist-button {
+    margin-bottom:10px;
+    display:flex;
+}
+
+.movie-posters {
+    
 }

@@ -22,10 +22,11 @@ function renderResults() {
     let html = ""
     for (let movie of movieArray) {
         html += `
-            <h3>${movie.Title}</h3>
-            <p>${movie.Year}</p>
-            <img src="${movie.Poster}">
+            <h3>${movie.Title} (${movie.Year})</h3>
+            <button id = "add-watchlist-button">Add to watchlist</button>
+            <img src="${movie.Poster}" class = "movie-posters">
             <hr />
+            
         `
     }
     document.getElementById("film-icon").style.visibility = "hidden"
