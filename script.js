@@ -16,7 +16,7 @@ searchButton.addEventListener("click", function () {
             }
             renderResults()
             document.querySelectorAll(".add-watchlist-button").forEach(item => {
-                item.addEventListener("click", event => { console.log(item.id) })
+                item.addEventListener("click", event => { window.localStorage.setItem('addedMovieId', JSON.stringify(item.id)); })
             })
 
         })
@@ -50,6 +50,8 @@ function renderResults() {
     movieArray = []
 
 }
+
+
 
 
 
