@@ -1,11 +1,17 @@
 
-fetch(`https://www.omdbapi.com/?t="${JSON.parse(window.localStorage.getItem('addedMovieId'))}"&apikey=ec55d5fb`)
+
+let fromStorage = JSON.parse(window.localStorage.getItem("addedMovieId"))
+
+console.log(fromStorage)
+
+fetch(`https://www.omdbapi.com/?i=${fromStorage}&apikey=ec55d5fb`)
     .then (response => response.json())
     .then (data => {
         console.log(data)
         document.getElementById("results-container").innerHTML += `
         
         <h3>${data.Title} (${data.Year})</h3>
+        <p> ${data.Plot}</p>
         <img src="${data.Poster}" class = "movie-posters">
         <p> IMDB ID: ${data.imdbID}</p>
     
